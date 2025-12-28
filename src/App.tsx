@@ -1,7 +1,7 @@
 import { Cover } from "./component/cover"
-import { Location } from "./component/location"
 import "./App.scss"
 import { Invitation } from "./component/invitation"
+import { Calendar } from "./component/calendar"
 import { Gallery } from "./component/gallery"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
@@ -20,8 +20,8 @@ function App() {
         </LazyDiv>
 
         <LazyDiv className="card-group">
-          {/* 결혼식 날짜 (달력) 
-          <Calendar />*/}
+          {/* 결혼식 날짜 (달력) */}
+          <Calendar />
 
           {/* 겔러리 */}
           <Gallery />
