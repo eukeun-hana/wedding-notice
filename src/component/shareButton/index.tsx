@@ -1,9 +1,7 @@
 import {
   BRIDE_FULLNAME,
   GROOM_FULLNAME,
-  LOCATION,
-  SHARE_ADDRESS,
-  SHARE_ADDRESS_TITLE,
+
   WEDDING_DATE,
   WEDDING_DATE_FORMAT,
 } from "../../const"
@@ -26,12 +24,10 @@ export const ShareButton = () => {
 
           kakao.Share.sendDefault({
             objectType: "location",
-            address: SHARE_ADDRESS,
-            addressTitle: SHARE_ADDRESS_TITLE,
             content: {
-              title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
+              title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME} 결혼합니다.`,
               description:
-                WEDDING_DATE.format(WEDDING_DATE_FORMAT) + "\n" + LOCATION,
+                WEDDING_DATE.format(WEDDING_DATE_FORMAT),
               imageUrl:
                 window.location.protocol +
                 "//" +
