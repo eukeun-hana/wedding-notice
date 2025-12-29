@@ -36,6 +36,7 @@ export const GuestBook = () => {
 
   const loadPosts = async () => {
     if (SERVER_URL) {
+      console.debug(SERVER_URL)
       try {
         const res = await fetch(
           `${SERVER_URL}/guestbook?offset=${0}&limit=${3}`,
