@@ -26,7 +26,7 @@ function App() {
          
           {/* 겔러리 */}
           <Gallery />
-          <GuestBook />
+          {!STATIC_ONLY && <GuestBook />}
           
         </LazyDiv>
         <ShareButton />
