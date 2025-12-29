@@ -23,10 +23,11 @@ function App() {
         <LazyDiv className="card-group">
           {/* 결혼식 날짜 (달력) 
           <Calendar />*/}
-
+         
           {/* 겔러리 */}
           <Gallery />
           <GuestBook />
+          {!STATIC_ONLY && <GuestBook />}
         </LazyDiv>
         <ShareButton />
       </div>
