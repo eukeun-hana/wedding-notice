@@ -101,7 +101,7 @@ export default function GuestBook() {
             <div className="title">
               <div className="name">{post.name}</div>
               <div className="date">
-                {dayjs.unix(post.timestamp).format("YYYY-MM-DD")}
+                {dayjs.unix(post.timestamp).format("YYYY-MM-DD HH:MM")}
               </div>
             </div>
             <div className="content">{post.content}</div>
@@ -357,7 +357,7 @@ const AllGuestBookModal = ({
             <div className="title">
               <div className="name">{post.name}</div>
               <div className="date">
-                {dayjs.unix(post.timestamp).format("YYYY-MM-DD")}
+                {dayjs.unix(post.timestamp).format("YYYY-MM-DD HH:MM")}
               </div>
             </div>
             <div className="content">{post.content}</div>
