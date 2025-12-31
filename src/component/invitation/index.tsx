@@ -29,7 +29,7 @@ export const Invitation = () => {
       <div className="content">서로의 인생을 품으려 합니다.</div>
       <div className="break" />
       <div className="content">마땅히 모시고 기쁨을 나눠야 하지만</div>
-      <div className="content">양가 가족들의 축복 속에</div>
+      <div className="content">양가 부모님과 가족들만 모시고</div>
       <div className="content">소박한 결혼을 하기로 뜻을 모았습니다.</div>
       <div className="break" />
       <div className="content">두 사람이 함께하는 새로운 시작에</div>

@@ -8,11 +8,6 @@ dayjs.extend(timezone)
 dayjs.locale("ko")
 
 export { dayjs }
-export const LOCATION = ""
-export const LOCATION_ADDRESS = ""
-export const SHARE_ADDRESS = LOCATION
-export const SHARE_ADDRESS_TITLE = LOCATION
-
 
 export const WEDDING_DATE = dayjs.tz("2026-03-15 15:00", "Asia/Seoul")
 export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`

@@ -1,12 +1,11 @@
 import { Cover } from "./component/cover"
 import "./App.scss"
 import { Invitation } from "./component/invitation"
-import { Calendar } from "./component/calendar"
+import { BGEffect } from "./component/bgEffect"
 import { Gallery } from "./component/gallery"
 import { LazyDiv } from "./component/lazyDiv"
 import GuestBook from "./component/guestbook"
 import { ShareButton } from "./component/shareButton"
-import { STATIC_ONLY } from "./env"
 import { BGM } from "./component/bgm"
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
     <>
     <BGM />
     <div className="background">
-      
+      <BGEffect />
       <div className="card-view">
         
         <LazyDiv className="card-group">
