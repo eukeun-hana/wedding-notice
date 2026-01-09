@@ -3,43 +3,42 @@ import "./App.scss"
 import { Invitation } from "./component/invitation"
 import { BGEffect } from "./component/bgEffect"
 import { Gallery } from "./component/gallery"
+import { GalleryThum } from "./component/galleryThumnail"
 import { LazyDiv } from "./component/lazyDiv"
 import GuestBook from "./component/guestbook"
 import { ShareButton } from "./component/shareButton"
 import { BGM } from "./component/bgm"
+import { useEffect } from "react"
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <BGM />
     <div className="background">
-      <BGEffect />
+      <BGEffect/>
       <div className="card-view">
-        
         <LazyDiv className="card-group">
           {/* 표지 */}
           <Cover />
-
           {/* 모시는 글 */}
           <Invitation />
         </LazyDiv>
 
         <LazyDiv className="card-group">
-          {/* 결혼식 날짜 (달력) 
-          <Calendar />*/}
-         
-          {/* 겔러리 */}
-          <Gallery />
+          {/* 갤러리 */}
+          <GalleryThum />
+          {/* 방명록 */}
           <GuestBook />
-          
         </LazyDiv>
-        <ShareButton />
+
         
+        <ShareButton />
       </div>
     </div>
-    </>
-    
-    
+    </>    
   )
 }
 
