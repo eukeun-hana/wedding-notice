@@ -1,25 +1,25 @@
-import coverImage from "./cover.png"
+import coverImage from "./cover.webp"
 //썸네일
-import t1 from "./thumb/1.webp"
-import t2 from "./thumb/2.webp"
-import t3 from "./thumb/3.webp"
-import t4 from "./thumb/4.webp"
-import t5 from "./thumb/5.webp"
+import t1 from "./thumb/image1.webp" //확정
+import t2 from "./thumb/image2.webp" //확정
+import t3 from "./thumb/image3.webp" //확정
+import t4 from "./thumb/image4.webp"
+import t5 from "./thumb/image5.webp"
 import t6 from "./thumb/blank.png"
 import t7 from "./thumb/blank.png"
-import t8 from "./thumb/8.webp"
-import t9 from "./thumb/9.webp"
-import t10 from "./thumb/10.webp"
+import t8 from "./thumb/image8.webp" //확정
+import t9 from "./thumb/image9.webp" //확정
+import t10 from "./thumb/image10.webp" //확정
 import t11 from "./thumb/blank.png"
-import t12 from "./thumb/12.webp"
-import t13 from "./thumb/13.webp"
-import t14 from "./thumb/14.webp"
-import t15 from "./thumb/15.webp"
-import t16 from "./thumb/16.webp"
-import t17 from "./thumb/17.webp"
-import t18 from "./thumb/18.webp"
-import t19 from "./thumb/19.webp"
-import t20 from "./thumb/20.webp"
+import t12 from "./thumb/image12.webp" //확정
+import t13 from "./thumb/image13.webp" //확정
+import t14 from "./thumb/image14.webp" //확정
+import t15 from "./thumb/image15.webp" //확정
+import t16 from "./thumb/image16.webp" //확정
+import t17 from "./thumb/image17.webp"
+import t18 from "./thumb/image18.webp"
+import t19 from "./thumb/image19.webp"
+import t20 from "./thumb/image20.webp" //확정
 
 //확대용
 import f1 from "./image1.webp"
