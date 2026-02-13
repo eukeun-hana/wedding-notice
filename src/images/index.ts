@@ -18,13 +18,9 @@ import t9 from "./thumb/image9.webp"
 import t10 from "./thumb/image10.webp"
 import t11 from "./thumb/image11.webp"
 import t12 from "./thumb/image12.webp"
-//import t13 from "./thumb/image13.webp"
 import t14 from "./thumb/image14.webp"
 import t15 from "./thumb/image15.webp"
-import t16 from "./thumb/image16.webp"
 import t17 from "./thumb/image17.webp"
-import t18 from "./thumb/image18.webp"
-import t19 from "./thumb/image19.webp"
 
 export const COVER_IMAGE = coverImage
 

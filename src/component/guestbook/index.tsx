@@ -36,7 +36,7 @@ export default function GuestBook() {
     const q = query(
       collection(db, "guestbook"),
       orderBy("createdAt", "desc"),
-      limit(3), //최근 방명록 4개까지
+      limit(4), //최근 방명록 4개까지
     )
 
     const snap = await getDocs(q)
@@ -233,7 +233,7 @@ const WriteGuestBookModal = ({
         const q = query(
           collection(db, "guestbook"),
           orderBy("createdAt", "desc"),
-          limit(5),
+          limit(4),
         )
 
         const snap = await getDocs(q)
