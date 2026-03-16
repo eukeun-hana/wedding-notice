@@ -1,8 +1,8 @@
 import {
   BRIDE_FULLNAME,
   GROOM_FULLNAME,
-  WEDDING_DATE,
-  WEDDING_DATE_FORMAT,
+  //WEDDING_DATE,
+  //WEDDING_DATE_FORMAT,
 } from "../../const"
 import { COVER_IMAGE } from "../../images"
 import { LazyDiv } from "../lazyDiv"
@@ -24,7 +24,7 @@ export const Cover = () => {
         <img src={COVER_IMAGE} alt="sample" />
       </div>
       <div className="subtitle">We are getting married</div>
-      <div className="info">{WEDDING_DATE.format(WEDDING_DATE_FORMAT)}</div>
+      //<div className="info">{WEDDING_DATE.format(WEDDING_DATE_FORMAT)}</div>
     </LazyDiv>
   )
 }
